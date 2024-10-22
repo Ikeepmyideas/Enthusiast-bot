@@ -1,4 +1,6 @@
 import os
+import discord
+from discord.ext import commands
 
 TOKEN = os.environ['token']
 QUIZ_FILE = 'quizzes.json'
